@@ -1,0 +1,179 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+#app {
+  max-width: 1440px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+ul.social {
+  display: flex;
+  margin-right: 1px;
+}
+.call {
+  color: green;
+}
+
+.Social-icon-facebook,
+.Social-icon-twitter {
+  color: navy;
+  font-size: xx-large;
+}
+
+.Social-icon-linkedin {
+  color: blue;
+  font-size: xx-large;
+}
+
+.Social-icon-youtube {
+  color: red;
+  font-size: xx-large;
+}
+
+.Social-icon-mail {
+  color: green;
+  font-size: xx-large;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.menu-button {
+  display: none;
+}
+
+.contain {
+  display: flex;
+  background: rgb(189, 198, 214);
+}
+.side-by-side {
+  flex: 1;
+  text-align: left;
+  margin: 50px;
+}
+
+.flink {
+  color: green;
+}
+
+.slink {
+  color: white;
+  font-size: x-large;
+}
+.email {
+  font-size: x-large;
+}
+.land {
+  color: green;
+}
+
+.content {
+  display: flex;
+  background: white;
+}
+
+.head {
+  justify-items: center;
+  width: "50%";
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px;
+}
+.side-by-side-h {
+  flex: 1;
+  text-align: left;
+  margin: 50px;
+}
+.tlink {
+  color: black;
+  padding: 20px;
+}
+.tlink:hover {
+  color: green;
+}
+
+.mail {
+  display: flex;
+  /*  get closer input and button */
+}
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
