@@ -133,7 +133,10 @@ ul.social {
   color: black;
   padding: 20px;
 }
-.tlink:hover {
+/* .tlink:hover {
+  color: green;
+} */
+.content:hover .tlink {
   color: green;
 }
 
