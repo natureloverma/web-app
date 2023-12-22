@@ -13,6 +13,7 @@ function FirstPage() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100%",
+        //test commit
       }}
     >
       {/* <div>
