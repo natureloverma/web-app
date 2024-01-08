@@ -45,7 +45,7 @@ const MyNavbar = () => {
           <a href="#">Contact</a>
         </li>
 
-        <ul className="social">
+        <ul className="social" style={{ marginRight: "1px" }}>
           <a href="#" className="call">
             Call Us: 0781234567
           </a>

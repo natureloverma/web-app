@@ -33,6 +33,7 @@ nav a {
 ul.social {
   display: flex;
   margin-right: 1px;
+  position: relative;
 }
 .call {
   color: green;
@@ -128,15 +129,42 @@ ul.social {
   flex: 1;
   text-align: left;
   margin: 50px;
+  width: 100%;
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 20px;
 }
-.tlink {
+
+.side-by-side-h:hover {
+  background: rgb(231, 243, 248);
+}
+
+.tlink,
+.alink {
   color: black;
   padding: 20px;
 }
-/* .tlink:hover {
+.side-by-side-h:hover .tlink,
+.alink {
   color: green;
-} */
-.content:hover .tlink {
+}
+
+.alink {
+  color: black;
+  padding: 20px;
+}
+.content:hover .alink {
+  color: green;
+}
+.next,
+.nexta,
+.nextb {
+  color: black;
+  padding: 20px;
+}
+.side-by-side-h:hover .next,
+.nexta,
+.nextb {
   color: green;
 }
 
@@ -144,6 +172,77 @@ ul.social {
   display: flex;
   /*  get closer input and button */
 }
+
+.fcontain {
+  display: flex;
+  background: rgb(247, 248, 250);
+}
+.fside-by-side {
+  flex: 1;
+  text-align: left;
+  margin: 50px;
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .btn:hover {
+  background: green;
+} */
+
+.side-by-side-h .btn {
+  background: none;
+  border-radius: 360%;
+  border-color: green;
+  font-size: xx-large;
+  line-height: 1;
+  color: green;
+}
+
+.side-by-side-h:hover .btn {
+  color: white;
+  background: green;
+}
+
+.side-by-side-f {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.filink {
+  color: black;
+  padding: 20px;
+}
+.side-by-side-f:hover .filink {
+  color: green;
+}
+
+.marquee-container {
+  margin: 0%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marqueeAnimation 30s linear infinite;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+@keyframes marqueeAnimation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;

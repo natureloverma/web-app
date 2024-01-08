@@ -17,16 +17,7 @@ function ThirdPage() {
         </center>
       </div>
       <div className="content" id="root">
-        <div
-          className="side-by-side-h"
-          style={{
-            width: "100%",
-            border: "1px solid #333",
-            padding: "10px",
-            margin: "20px",
-          }}
-        >
-          {" "}
+        <div className="side-by-side-h">
           <p> {""} </p>
           <img src={bgimg} alt="" width={500} height={250} top="10%" />
           <h3>
@@ -45,15 +36,7 @@ function ThirdPage() {
           </a>
         </div>
 
-        <div
-          className="side-by-side-h"
-          style={{
-            width: "100%",
-            border: "1px solid #333",
-            padding: "10px",
-            margin: "20px",
-          }}
-        >
+        <div className="side-by-side-h">
           <img src={bgimg} alt="" width={500} height={250} top="10%" />
           <h3>
             <a href="#" className="tlink">

@@ -12,13 +12,8 @@ function FirstPage() {
         backgroundImage: 'url("/src/assets/blue.webp")',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        height: "100%",
-        //test commit
       }}
     >
-      {/* <div>
-        <FullScreenPage />
-      </div> */}
       <div
         className="form"
         style={{
