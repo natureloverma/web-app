@@ -9,6 +9,7 @@ import SecondPage from "./SecondPage";
 import ThirdPage from "./ThirdPage";
 import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
+import LastPage from "./LastPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <LastPage />
       <Footer />
     </div>
   );

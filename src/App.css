@@ -19,21 +19,26 @@ nav ul {
   display: flex;
 }
 
-nav {
-  text-align: right;
-}
-
 nav a {
   height: 100%;
   padding: 0 30px;
   display: flex;
   align-items: center;
   color: black;
+  margin-right: auto;
+  line-height: 1.5;
 }
-ul.social {
-  display: flex;
-  margin-right: 1px;
-  position: relative;
+
+.social {
+  margin: right;
+  padding: 0;
+}
+
+.form {
+  text-align: left;
+  width: 60%;
+  margin: relative;
+  padding: 100px;
 }
 .call {
   color: green;
@@ -188,10 +193,6 @@ ul.social {
   flex-direction: row;
 }
 
-/* .btn:hover {
-  background: green;
-} */
-
 .side-by-side-h .btn {
   background: none;
   border-radius: 360%;
@@ -220,6 +221,29 @@ ul.social {
   color: green;
 }
 
+.side-by {
+  flex: 1;
+  text-align: left;
+  margin: 50px;
+  background-color: burlywood;
+}
+
+.side-byy {
+  flex: 1;
+  text-align: left;
+  background-color: green;
+  color: white;
+  padding: 50px;
+  padding-right: 100px;
+}
+
+.llink {
+  color: white;
+}
+.cont {
+  display: flex;
+  background-color: burlywood;
+}
 .marquee-container {
   margin: 0%;
   width: 100%;
@@ -232,6 +256,8 @@ ul.social {
   animation: marqueeAnimation 30s linear infinite;
   padding: 10px;
   margin-right: 20px;
+  scroll-behavior: smooth;
+  width: 50%;
 }
 
 @keyframes marqueeAnimation {

@@ -2,12 +2,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
-import { FaHeart } from "react-icons/fa";
 import {
   FaFacebook,
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
+  FaHeart,
 } from "react-icons/fa";
 import { IoSendSharp } from "react-icons/io5";
 
@@ -16,11 +16,13 @@ const Footer = () => {
     <footer
       className="bg-dark text-light p-4 mt-5"
       style={{
-        width: "100%",
         textAlign: "left",
       }}
     >
       <div className="container">
+        <br></br>
+        <br></br>
+        <br></br>
         <div className="row">
           <div className="col-md-2">
             <h3>UNIVERSITY</h3>
@@ -74,7 +76,7 @@ const Footer = () => {
                 <IoSendSharp />
               </Button>
             </div>
-
+            <br></br>
             <p>
               <a
                 className="slink"
@@ -114,9 +116,9 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        <br></br> <br></br>
         <hr />
         {/* get line  */}
-
         <div className="row mt-5">
           <div className="col-md-12 text-center">
             <p>

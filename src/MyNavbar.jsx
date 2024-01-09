@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaFacebookSquare, FaLinkedin, FaYoutubeSquare } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
-//import './Style.css';
 
 const MyNavbar = () => {
   function showSidebar() {
@@ -19,14 +18,7 @@ const MyNavbar = () => {
   }
 
   return (
-    <Navbar
-      className="nav"
-      id="basic-navbar-nav"
-      bg="light"
-      expand="lg"
-      href="#home"
-      widh="100%"
-    >
+    <Navbar className="nav" bg="light" href="#home">
       UNIVERSITY Landmark Education
       <ul>
         <li className="bars">
@@ -44,11 +36,11 @@ const MyNavbar = () => {
         <li className="bars">
           <a href="#">Contact</a>
         </li>
-
-        <ul className="social" style={{ marginRight: "1px" }}>
+        <ul className="social">
           <a href="#" className="call">
             Call Us: 0781234567
           </a>
+          <p>|</p>
 
           <a
             className="Social-icon-facebook"

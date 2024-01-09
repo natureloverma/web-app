@@ -57,8 +57,9 @@ function FifthPage() {
         <p width="50%" align="center">
           Teaching defined as learners to understanding and application of
           knowledge.
-        </p>
-        <div className="marquee-content">
+        </p>{" "}
+        //className="marquee-content"
+        <div>
           <img src={bumn} alt="" width={150} height={100} top="10%" />
           <img src={syn} alt="" width={300} height={150} top="10%" />
           <img src={cidb} alt="" width={150} height={100} top="10%" />
