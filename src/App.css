@@ -28,10 +28,26 @@ nav a {
   margin-right: auto;
   line-height: 1.5;
 }
+nav img {
+  position: relative;
+  left: 10px;
+  padding: 5px;
+}
+.bars {
+  padding: 3px;
+  position: relative;
+  right: 100px;
+}
 
-.social {
-  margin: right;
-  padding: 0;
+.bars a:hover {
+  color: green;
+}
+
+.ico a {
+  margin-right: auto;
+  padding: 5px;
+  position: relative;
+  right: 100px;
 }
 
 .form {
@@ -43,26 +59,64 @@ nav a {
 .call {
   color: green;
 }
+.call:hover {
+  color: green;
+}
+
+.cal {
+  color: rgb(180, 177, 177);
+}
+.ca {
+  color: black;
+}
+.ca:hover {
+  color: black;
+}
 
 .Social-icon-facebook,
 .Social-icon-twitter {
   color: navy;
-  font-size: xx-large;
+  font-size: x-large;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 
 .Social-icon-linkedin {
   color: blue;
-  font-size: xx-large;
+  font-size: x-large;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 
 .Social-icon-youtube {
   color: red;
-  font-size: xx-large;
+  font-size: x-large;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 
 .Social-icon-mail {
   color: green;
-  font-size: xx-large;
+  font-size: x-large;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.Social-icon-facebook:hover,
+.Social-icon-twitter:hover {
+  transform: rotateY(180deg);
+  color: navy;
+}
+.Social-icon-linkedin:hover {
+  transform: rotateY(180deg);
+  color: blue;
+}
+.Social-icon-youtube:hover {
+  transform: rotateY(180deg);
+  color: red;
+}
+.Social-icon-mail:hover {
+  transform: rotateY(180deg);
+  color: green;
 }
 
 .sidebar {
@@ -95,7 +149,7 @@ nav a {
 
 .contain {
   display: flex;
-  background: rgb(189, 198, 214);
+  background: rgb(250, 239, 250);
 }
 .side-by-side {
   flex: 1;
@@ -121,28 +175,40 @@ nav a {
 .content {
   display: flex;
   background: white;
+  padding: 0px;
+  margin: 50px;
 }
 
 .head {
-  justify-items: center;
+  position: relative;
   width: "50%";
+  justify-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.headd {
+  position: relative;
+  width: "50%";
+  justify-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 100px;
 }
 .side-by-side-h {
   flex: 1;
   text-align: left;
-  margin: 50px;
   width: 100%;
   border: 1px solid #333;
-  padding: 10px;
+  padding: 15px;
   margin: 20px;
 }
 
-.side-by-side-h:hover {
+/* .side-by-side-h:hover {
   background: rgb(231, 243, 248);
-}
+} */
 
 .tlink,
 .alink {
@@ -167,7 +233,7 @@ nav a {
   color: black;
   padding: 20px;
 }
-.side-by-side-h:hover .next,
+.side-by-side-hh:hover .next,
 .nexta,
 .nextb {
   color: green;
@@ -187,13 +253,20 @@ nav a {
   text-align: left;
   margin: 50px;
 }
+.ffside-by-side {
+  flex: 1;
+  padding: 0%;
+}
 
 .next {
   display: flex;
   flex-direction: row;
 }
+.side-by-side-hh:hover {
+  background-color: rgb(232, 250, 249);
+}
 
-.side-by-side-h .btn {
+.side-by-side-hh .btn {
   background: none;
   border-radius: 360%;
   border-color: green;
@@ -202,7 +275,7 @@ nav a {
   color: green;
 }
 
-.side-by-side-h:hover .btn {
+.side-by-side-hh:hover .btn {
   color: white;
   background: green;
 }

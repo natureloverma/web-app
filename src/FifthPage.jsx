@@ -9,7 +9,7 @@ function FifthPage() {
   return (
     <section>
       <div
-        className="head"
+        className="headd"
         style={{ display: "flex", justifyContent: "space-between" }}
       >
         {" "}
@@ -22,7 +22,7 @@ function FifthPage() {
       <div className="content" id="root">
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={300} height={150} top="10%" />
+            <img src={bgimg} alt="" width={300} height={150} />
             <h4>
               {" "}
               Teaching defined as learners to understanding and application of

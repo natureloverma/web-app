@@ -25,14 +25,10 @@ function SecondPage() {
             of getting students involved in the active construction of
             knowledge. A teacher requires not only knowledge of subject matter,
             but knowledge of how students learn and how to transform them into
-            active learners. The aim of teaching is not only to transmit
-            information, but also to transform students from passive recipients
-            of other people's knowledge into active constructors of their own
-            and others' knowledge. The teacher cannot transform without the
-            student's active participation, of course. Teaching is fundamentally
-            about creating the pedagogical, social, and ethical conditions under
-            which students agree to take charge of their own learning,
-            individually and collectively.
+            active learners. Teaching is fundamentally about creating the
+            pedagogical, social, and ethical conditions under which students
+            agree to take charge of their own learning, individually and
+            collectively.
           </p>
 
           <a href="#" className="link">

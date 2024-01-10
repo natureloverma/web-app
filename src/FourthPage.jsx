@@ -17,7 +17,7 @@ function FourthPage() {
           <p>A teacher requires not only knowledge of subject matter. </p>
 
           <div
-            className="side-by-side-h"
+            className="side-by-side-hh"
             style={{
               width: "100%",
               border: "1px solid lightgray",
@@ -40,7 +40,7 @@ function FourthPage() {
           </div>
 
           <div
-            className="side-by-side-h"
+            className="side-by-side-hh"
             style={{
               width: "100%",
               border: "1px solid lightgray",
@@ -62,7 +62,7 @@ function FourthPage() {
             </Button>
           </div>
           <div
-            className="side-by-side-h"
+            className="side-by-side-hh"
             style={{
               width: "100%",
               border: "1px solid lightgray",
@@ -84,10 +84,10 @@ function FourthPage() {
             </Button>
           </div>
         </div>
-        <div className="fside-by-side">
+        <div className="ffside-by-side">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={500} height={450} />
+            <img src={bgimg} alt="" width={675} height={990} />
           </center>
         </div>
       </div>
