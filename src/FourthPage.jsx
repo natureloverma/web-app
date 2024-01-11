@@ -30,13 +30,17 @@ function FourthPage() {
                 First year students
               </a>
             </h3>
-            <p>
+            <p
+              style={{
+                width: "500px",
+              }}
+            >
               Teaching can be defined as engagement with learners to enable
               their understanding and application of knowledge.{" "}
+              <Button className="btn">
+                <GrNext />
+              </Button>
             </p>
-            <Button className="btn">
-              <GrNext />
-            </Button>
           </div>
 
           <div
@@ -53,13 +57,17 @@ function FourthPage() {
                 Tuition $ fees
               </a>
             </h3>
-            <p>
+            <p
+              style={{
+                width: "500px",
+              }}
+            >
               Teaching can be defined as engagement with learners to enable
               their understanding and application of knowledge.{" "}
+              <Button className="btn">
+                <GrNext />
+              </Button>
             </p>
-            <Button className="btn">
-              <GrNext />
-            </Button>
           </div>
           <div
             className="side-by-side-hh"
@@ -75,13 +83,17 @@ function FourthPage() {
                 International students
               </a>
             </h3>
-            <p>
+            <p
+              style={{
+                width: "500px",
+              }}
+            >
               Teaching can be defined as engagement with learners to enable
               their understanding and application of knowledge.{" "}
+              <Button className="btn">
+                <GrNext />
+              </Button>
             </p>
-            <Button className="btn">
-              <GrNext />
-            </Button>
           </div>
         </div>
         <div className="ffside-by-side">

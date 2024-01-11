@@ -25,32 +25,59 @@ const Footer = () => {
         <br></br>
         <div className="row">
           <div className="col-md-2">
-            <h3>UNIVERSITY</h3>
-            <p>Landmark Education</p>
+            <a
+              href="#"
+              style={{
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              <h3>UNIVERSITY</h3>
+              <p>Landmark Education</p>
+            </a>
           </div>
           <div className="col-md-2">
             <h5>Quick Links</h5>
-            <p> </p>
-            <p>Work</p>
-            <p>Services</p>
-            <p>Products</p>
-            <p>Tips & Tricks</p>
+            <p>
+              <a href="#">Work</a>
+            </p>
+            <p>
+              <a href="#">Services</a>
+            </p>
+            <p>
+              <a href="#">Products</a>
+            </p>
+            <p>
+              <a href="#">Tips & Tricks</a>
+            </p>
           </div>
 
           <div className="col-md-2">
             <h5>Programs</h5>
             <p> </p>
-            <p>Air freight</p>
-            <p>Ocean freight</p>
-            <p>Large projects</p>
+            <p>
+              <a href="#">Air freight</a>
+            </p>
+            <p>
+              <a href="#">Ocean freight</a>
+            </p>
+            <p>
+              <a href="#">Large projects</a>
+            </p>
           </div>
 
           <div className="col-md-2">
             <h5>Resourses</h5>
             <p> </p>
-            <p>FAQ</p>
-            <p>Submit Ticket</p>
-            <p>Contact Us</p>
+            <p>
+              <a href="#">FAQ</a>
+            </p>
+            <p>
+              <a href="#">Submit Ticket</a>
+            </p>
+            <p>
+              <a href="#">Contact Us</a>
+            </p>
           </div>
 
           <div className="col-md-4">
@@ -77,7 +104,7 @@ const Footer = () => {
               </Button>
             </div>
             <br></br>
-            <p>
+            <div className="footerlink">
               <a
                 className="slink"
                 target="_blank"
@@ -113,7 +140,7 @@ const Footer = () => {
               >
                 <FaYoutube />{" "}
               </a>
-            </p>
+            </div>
           </div>
         </div>
         <br></br> <br></br>
@@ -127,7 +154,7 @@ const Footer = () => {
                 <FaHeart />{" "}
               </line>
               by{" "}
-              <a href="#" className="land">
+              <a href="#" className="landd">
                 landmark
               </a>
             </p>

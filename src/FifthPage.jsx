@@ -22,7 +22,7 @@ function FifthPage() {
       <div className="content" id="root">
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={300} height={150} />
+            <img src={bgimg} alt="" width={200} height={125} />
             <h4>
               {" "}
               Teaching defined as learners to understanding and application of
@@ -33,7 +33,7 @@ function FifthPage() {
 
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={300} height={150} top="10%" />
+            <img src={bgimg} alt="" width={200} height={125} />
             <h4>
               Teaching defined as learners to understanding and application of
               knowledge{" "}
@@ -43,7 +43,7 @@ function FifthPage() {
 
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={300} height={150} top="10%" />
+            <img src={bgimg} alt="" width={200} height={125} />
             <h4>
               Teaching defined as learners to understanding and application of
               knowledge{" "}
@@ -51,21 +51,41 @@ function FifthPage() {
           </a>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <hr />
-      <div>
-        <h1>OUR PARTNERS</h1>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div className="part">
+        <h1>
+          <b>OUR PARTNERS</b>
+        </h1>
+        <br></br>
         <p width="50%" align="center">
           Teaching defined as learners to understanding and application of
-          knowledge.
+          knowledge.Teaching defined as learners to understanding and
+          application of knowledge.
         </p>{" "}
-        //className="marquee-content"
-        <div>
-          <img src={bumn} alt="" width={150} height={100} top="10%" />
-          <img src={syn} alt="" width={300} height={150} top="10%" />
-          <img src={cidb} alt="" width={150} height={100} top="10%" />
-          <img src={bumn} alt="" width={150} height={100} top="10%" />
-          <img src={syn} alt="" width={300} height={150} top="10%" />
-          <img src={haier} alt="" width={150} height={100} top="10%" />
+        <div
+          className="marquee-content"
+          style={{
+            padding: "50px",
+            margin: "20px",
+            display: "flex",
+            justifyContent: "space-between",
+            filter: "grayscale(100%)",
+          }}
+        >
+          <img src={bumn} alt="" width={125} height={90} />
+          <img src={cidb} alt="" width={125} height={90} />
+          <img src={syn} alt="" width={200} height={90} />
+          <img src={bumn} alt="" width={125} height={90} />
+          <img src={haier} alt="" width={125} height={90} />
         </div>
       </div>
     </section>

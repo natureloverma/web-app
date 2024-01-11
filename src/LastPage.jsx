@@ -8,7 +8,7 @@ function SecondPage() {
         <div className="side-by">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={500} height={450} />
+            <img src={bgimg} alt="" width={500} height={500} />
           </center>
         </div>
 

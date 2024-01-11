@@ -31,16 +31,7 @@ function FirstPage() {
           </b>{" "}
         </p>
         <br></br>
-        <Button
-          style={{
-            backgroundColor: "green",
-            border: "none",
-            borderRadius: "0%",
-            fontSize: "x-large",
-          }}
-        >
-          Get Started Now
-        </Button>
+        <Button className="but">Get Started Now</Button>
       </div>
     </section>
   );
