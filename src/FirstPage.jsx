@@ -7,9 +7,9 @@ function FirstPage() {
     <section
       className="cont"
       style={{
-        color: "red",
+        color: "white",
         justifyItems: "left",
-        backgroundImage: 'url("/src/assets/blue.webp")',
+        backgroundImage: 'url("/src/assets/read.png")',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -26,8 +26,7 @@ function FirstPage() {
         <p>
           <b>
             This is the first web page and the example page also the pages
-            include that . Teaching defined as learners to understanding and
-            application of knowledge.
+            include that . Understanding and application of knowledge.
           </b>{" "}
         </p>
         <br></br>

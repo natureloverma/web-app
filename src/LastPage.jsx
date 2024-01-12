@@ -1,7 +1,7 @@
 import React from "react";
-import bgimg from "./assets/work.jpg";
+import bgimg from "./assets/sp.jpg";
 
-function SecondPage() {
+function LastPage() {
   return (
     <section>
       <div className="cont">
@@ -41,4 +41,4 @@ function SecondPage() {
   );
 }
 
-export default SecondPage;
+export default LastPage;

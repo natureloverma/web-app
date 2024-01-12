@@ -1,5 +1,7 @@
 import React from "react";
-import bgimg from "./assets/work.jpg";
+import bgimg from "./assets/grad.jpg";
+import bimg from "./assets/mach.avif";
+import img from "./assets/teach.jpg";
 import bumn from "./assets/bumn.jpg";
 import cidb from "./assets/cidb.png";
 import haier from "./assets/haier.png";
@@ -15,14 +17,14 @@ function FifthPage() {
         {" "}
         <h1>TOP STORIES</h1>
         <a href="#" className="link">
-          <u className="flink">More Stories</u>
+          <u className="mslink">More Stories</u>
         </a>
       </div>
 
-      <div className="content" id="root">
+      <div className="content">
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={200} height={125} />
+            <img src={bgimg} alt="" width={350} height={150} />
             <h4>
               {" "}
               Teaching defined as learners to understanding and application of
@@ -33,7 +35,7 @@ function FifthPage() {
 
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={200} height={125} />
+            <img src={bimg} alt="" width={350} height={150} />
             <h4>
               Teaching defined as learners to understanding and application of
               knowledge{" "}
@@ -43,7 +45,7 @@ function FifthPage() {
 
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={200} height={125} />
+            <img src={img} alt="" width={350} height={150} />
             <h4>
               Teaching defined as learners to understanding and application of
               knowledge{" "}
@@ -81,11 +83,11 @@ function FifthPage() {
             filter: "grayscale(100%)",
           }}
         >
-          <img src={bumn} alt="" width={125} height={90} />
-          <img src={cidb} alt="" width={125} height={90} />
-          <img src={syn} alt="" width={200} height={90} />
-          <img src={bumn} alt="" width={125} height={90} />
-          <img src={haier} alt="" width={125} height={90} />
+          <img src={bumn} alt="" width={150} height={90} />
+          <img src={cidb} alt="" width={150} height={90} />
+          <img src={syn} alt="" width={150} height={90} />
+          <img src={bumn} alt="" width={150} height={90} />
+          <img src={haier} alt="" width={150} height={90} />
         </div>
       </div>
     </section>

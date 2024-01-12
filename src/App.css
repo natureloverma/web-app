@@ -14,6 +14,10 @@ body {
   max-width: 1440px;
 }
 
+/* nav {
+  position: fixed;
+  z-index: 1000;
+} */
 nav ul {
   list-style: none;
   display: flex;
@@ -69,12 +73,16 @@ nav img {
 }
 .form .but {
   background-color: green;
-  border: none;
   border-radius: 0%;
   font-size: x-large;
+  border-color: green;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 .form .but:hover {
   background: none;
+  border-color: white;
+  transform: rotateY(20deg);
 }
 
 .call {
@@ -180,24 +188,36 @@ nav img {
 
 .flink {
   color: green;
-  transition: all 1s;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
 }
 .flink:hover {
   color: green;
-  transform: scale(1.2); /* Adjust the scale factor as needed */
-  z-index: 2;
+  transform: scale(1.1) translate(10px, 0px);
+}
+
+.mslink {
+  color: green;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.mslink:hover {
+  color: green;
+  transform: scale(1.1);
+  transform-origin: right;
 }
 
 .slink {
   color: white;
   font-size: x-large;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease, color 0.5s ease;
 }
+
 .slink:hover {
   transform: rotateY(180deg);
   color: green;
 }
+
 .email {
   font-size: x-large;
 }
@@ -255,7 +275,7 @@ nav img {
 }
 
 .side-by-side-h:hover img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .side-by-side-h:hover {
   border: 1px solid #4a794a;
@@ -348,9 +368,10 @@ nav img {
 
 .side-by {
   flex: 1;
+  width: 400px;
   text-align: left;
   margin: 50px;
-  padding: 0px;
+  padding: 10px;
   background-color: rgb(243, 232, 218);
 }
 
@@ -365,6 +386,11 @@ nav img {
 
 .llink {
   color: white;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.llink:hover {
+  transform: scale(1.1) translate(10px, 0px);
 }
 .cont {
   display: flex;

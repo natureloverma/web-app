@@ -19,7 +19,7 @@ const MyNavbar = () => {
   }
 
   return (
-    <Navbar className="nav" bg="white" href="#home">
+    <Navbar className="nav" bg="white" href="#home" position="fixed">
       <div>
         <a href="#">
           <img src={bgimg} alt="" width={250} height={70} />

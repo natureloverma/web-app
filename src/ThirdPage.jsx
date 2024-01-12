@@ -1,5 +1,6 @@
 import React from "react";
-import bgimg from "./assets/work.jpg";
+import bgimg from "./assets/sc.jpg";
+import img from "./assets/art.jpg";
 
 function ThirdPage() {
   return (
@@ -18,7 +19,7 @@ function ThirdPage() {
       </div>
       <div className="content" id="root">
         <div className="side-by-side-h">
-          <img src={bgimg} alt="" width={600} height={250} />
+          <img src={bgimg} alt="" width={650} height={250} />
           <h3>
             <a href="#" className="tlink">
               Faculty of Science
@@ -36,7 +37,7 @@ function ThirdPage() {
         </div>
 
         <div className="side-by-side-h">
-          <img src={bgimg} alt="" width={600} height={250} top="10%" />
+          <img src={img} alt="" width={650} height={250} />
           <h3>
             <a href="#" className="tlink">
               Faculty of Arts

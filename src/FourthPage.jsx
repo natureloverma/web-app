@@ -1,5 +1,5 @@
 import React from "react";
-import bgimg from "./assets/work.jpg";
+import bgimg from "./assets/tr.avif";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { GrNext } from "react-icons/gr";
@@ -9,12 +9,25 @@ function FourthPage() {
     <section>
       <div className="fcontain">
         <div className="fside-by-side">
-          <h1>ESSENTIAL RESOURCES</h1>
-          <p>
+          <h1
+            style={{
+              padding: "10px",
+            }}
+          >
+            ESSENTIAL RESOURCES
+          </h1>
+
+          <p
+            style={{
+              padding: "10px",
+              margin: "10px",
+            }}
+          >
+            {" "}
             The aim of teaching is not only to transmit information, but also to
-            transform students from passive recipients.{" "}
+            transform students from passive recipients. A teacher requires not
+            only knowledge of subject matter.{" "}
           </p>
-          <p>A teacher requires not only knowledge of subject matter. </p>
 
           <div
             className="side-by-side-hh"
