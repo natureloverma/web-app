@@ -21,7 +21,7 @@ const MyNavbar = () => {
   }
 
   return (
-    <Navbar className="nav" bg="white" href="#home" position="fixed">
+    <Navbar className="nav" bg="white" href="#home" fixed="top">
       <div>
         <a href="#">
           <img src={bgimg} alt="" width={250} height={70} />
