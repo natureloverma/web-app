@@ -150,9 +150,9 @@ const Footer = () => {
           <div className="col-md-12 text-center">
             <p>
               Copyright &copy; 2023 All rights reserved | This is made with
-              <line className="land">
+              <span className="land">
                 <FaHeart />{" "}
-              </line>
+              </span>
               by{" "}
               <a href="#" className="landd">
                 landmark

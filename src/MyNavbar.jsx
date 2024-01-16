@@ -6,6 +6,8 @@ import { FaFacebookSquare, FaLinkedin, FaYoutubeSquare } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import bgimg from "./assets/brand.png";
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import Contact from "./Contact";
 
 const MyNavbar = () => {
   function showSidebar() {
@@ -42,6 +44,11 @@ const MyNavbar = () => {
         <li className="bars">
           <a href="#">Contact</a>
         </li>
+        {/* <li className="bars">
+          <a href="#">
+            <Link to="/Contact">Contact</Link>
+          </a>
+        </li> */}
       </ul>
       <ul>
         <div className="ico">
@@ -50,7 +57,7 @@ const MyNavbar = () => {
               Call Us :{" "}
             </a>
             <a href="#" className="ca">
-              0(78) 1234567
+              <span> 0 (78) 1234567</span>
             </a>
 
             <a href="#" className="cal">
@@ -130,6 +137,7 @@ const MyNavbar = () => {
           </a>
         </li>
       </ul>
+      {/* <Route path="/Contact" component={Contact} /> */}
     </Navbar>
   );
 };

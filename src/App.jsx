@@ -10,6 +10,7 @@ import ThirdPage from "./ThirdPage";
 import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
 import LastPage from "./LastPage";
+// import Contact from "./Contact";
 
 function App() {
   const [count, setCount] = useState(0);

@@ -17,11 +17,13 @@ function ThirdPage() {
           </p>
         </center>
       </div>
-      <div className="content" id="root">
+      <div className="content">
         <div className="side-by-side-h">
-          <img src={bgimg} alt="" width={650} height={250} />
+          <img src={bgimg} alt="" width={550} height={250} />
+          <br></br>
           <h3>
             <a href="#" className="tlink">
+              <br></br>
               Faculty of Science
             </a>{" "}
           </h3>
@@ -37,9 +39,12 @@ function ThirdPage() {
         </div>
 
         <div className="side-by-side-h">
-          <img src={img} alt="" width={650} height={250} />
+          <img src={img} alt="" width={550} height={250} />
+          <br></br>
+
           <h3>
             <a href="#" className="tlink">
+              <br></br>
               Faculty of Arts
             </a>
           </h3>

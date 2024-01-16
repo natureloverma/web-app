@@ -1,6 +1,7 @@
 #root {
   margin: 0 auto;
   text-align: center;
+  width: 100vw;
 }
 
 body {
@@ -239,7 +240,6 @@ nav img {
 
 .head {
   position: relative;
-  width: "50%";
   justify-items: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -268,7 +268,6 @@ nav img {
 .side-by-side-h {
   flex: 1;
   text-align: left;
-  width: 100%;
   border: 1px solid #dbf7db;
   padding: 15px;
   margin: 20px;
@@ -344,7 +343,7 @@ nav img {
   line-height: 1;
   color: green;
   position: relative;
-  left: 220px;
+  left: 180px;
   bottom: 50px;
 }
 
