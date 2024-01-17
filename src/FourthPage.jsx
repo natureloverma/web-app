@@ -1,4 +1,3 @@
-import React from "react";
 import bgimg from "./assets/tr.avif";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";

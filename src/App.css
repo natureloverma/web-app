@@ -399,6 +399,18 @@ nav img {
   left: 1250px;
 }
 
+.con {
+  margin: 100px;
+  padding: 200px;
+  display: flex;
+  filter: grayscale(30%);
+  background: rgb(229, 235, 247);
+}
+
+.con .fxc {
+  font-size: xxx-large;
+}
+
 .marquee-content {
   display: inline-block;
   white-space: nowrap;

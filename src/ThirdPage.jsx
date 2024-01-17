@@ -1,4 +1,3 @@
-import React from "react";
 import bgimg from "./assets/sc.jpg";
 import img from "./assets/art.jpg";
 

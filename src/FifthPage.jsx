@@ -1,4 +1,3 @@
-import React from "react";
 import bgimg from "./assets/grad.jpg";
 import bimg from "./assets/mach.avif";
 import img from "./assets/teach.jpg";
@@ -68,7 +67,7 @@ function FifthPage() {
           <b>OUR PARTNERS</b>
         </h1>
         <br></br>
-        <p width="50%" align="center">
+        <p>
           Teaching defined as learners to understanding and application of
           knowledge.Teaching defined as learners to understanding and
           application of knowledge.

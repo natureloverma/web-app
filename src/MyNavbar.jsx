@@ -1,33 +1,24 @@
 // MyNavbar.jsx
-import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaFacebookSquare, FaLinkedin, FaYoutubeSquare } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import bgimg from "./assets/brand.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import Contact from "./Contact";
 
 const MyNavbar = () => {
-  function showSidebar() {
-    const sidebar = document.querySelector(".sidebar");
-    sidebar.style.display = "flex";
-  }
+  //   function showSidebar() {
+  //     const sidebar = document.querySelector(".sidebar");
+  //     sidebar.style.display = "flex";
+  //   }
 
-  function hideSidebar() {
-    const sidebar = document.querySelector(".sidebar");
-    sidebar.style.display = "none";
-  }
-
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/Contact",
-  //     element: <Contact />,
-  //   },
-  // ]);
-  // <RouterProvider router={router} />;
+  //   function hideSidebar() {
+  //     const sidebar = document.querySelector(".sidebar");
+  //     sidebar.style.display = "none";
+  //   }
 
   return (
     <Navbar className="nav" bg="white" href="#home" sticky="top">
@@ -51,7 +42,7 @@ const MyNavbar = () => {
           <a href="#">Blog</a>
         </li>
         <li className="bars">
-          <a href="#">Contact{/* <Link to="/Contact">Contact</Link> */}</a>
+          <Link to="/Contact">Contact</Link>
         </li>
       </ul>
       <ul>
