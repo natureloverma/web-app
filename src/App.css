@@ -216,8 +216,10 @@ nav img {
 }
 
 .email {
-  font-size: x-large;
+  font-size: large;
+  padding: 10px;
 }
+
 .land {
   color: green;
 }

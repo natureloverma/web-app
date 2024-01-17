@@ -91,13 +91,14 @@ const Footer = () => {
                 id="email"
                 className="email"
                 placeholder="Enter your email"
+                style={{ border: "none" }}
               ></input>
               <Button
                 style={{
                   backgroundColor: "green",
                   borderRadius: "0%",
                   border: "none",
-                  fontSize: "x-large",
+                  fontSize: "xx-large",
                   lineHeight: "1.5",
                 }}
               >
