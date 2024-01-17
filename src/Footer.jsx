@@ -10,6 +10,7 @@ import {
   FaHeart,
 } from "react-icons/fa";
 import { IoSendSharp } from "react-icons/io5";
+import { FaLongArrowAltUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -157,9 +158,22 @@ const Footer = () => {
               <a href="#" className="landd">
                 landmark
               </a>
-            </p>
+            </p>{" "}
           </div>
         </div>
+        <Button
+          className="bn"
+          style={{
+            backgroundColor: "green",
+            borderRadius: "360%",
+            border: "green",
+            fontSize: "xx-large",
+            lineHeight: "1",
+            fixed: "bottom",
+          }}
+        >
+          <FaLongArrowAltUp />
+        </Button>
       </div>
     </footer>
   );

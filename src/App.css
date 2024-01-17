@@ -15,10 +15,6 @@ body {
   max-width: 1440px;
 }
 
-/* .nav {
-  position: fixed;
-  z-index: 1000;
-} */
 nav ul {
   list-style: none;
   display: flex;
@@ -394,6 +390,11 @@ nav img {
 .cont {
   display: flex;
   background-color: rgb(243, 232, 218);
+}
+.bn {
+  position: fixed;
+  bottom: 20px;
+  left: 1250px;
 }
 
 .marquee-content {

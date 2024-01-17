@@ -6,7 +6,8 @@ import { FaFacebookSquare, FaLinkedin, FaYoutubeSquare } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import bgimg from "./assets/brand.png";
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import Contact from "./Contact";
 
 const MyNavbar = () => {
@@ -20,8 +21,16 @@ const MyNavbar = () => {
     sidebar.style.display = "none";
   }
 
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/Contact",
+  //     element: <Contact />,
+  //   },
+  // ]);
+  // <RouterProvider router={router} />;
+
   return (
-    <Navbar className="nav" bg="white" href="#home" fixed="top">
+    <Navbar className="nav" bg="white" href="#home" sticky="top">
       <div>
         <a href="#">
           <img src={bgimg} alt="" width={250} height={70} />
@@ -42,13 +51,8 @@ const MyNavbar = () => {
           <a href="#">Blog</a>
         </li>
         <li className="bars">
-          <a href="#">Contact</a>
+          <a href="#">Contact{/* <Link to="/Contact">Contact</Link> */}</a>
         </li>
-        {/* <li className="bars">
-          <a href="#">
-            <Link to="/Contact">Contact</Link>
-          </a>
-        </li> */}
       </ul>
       <ul>
         <div className="ico">
@@ -137,7 +141,6 @@ const MyNavbar = () => {
           </a>
         </li>
       </ul>
-      {/* <Route path="/Contact" component={Contact} /> */}
     </Navbar>
   );
 };

@@ -11,9 +11,11 @@ import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
 import LastPage from "./LastPage";
 // import Contact from "./Contact";
+// import { BrowserRouter as Routes, Route } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
+
   return (
     <div className="App">
       <MyNavbar />
@@ -24,6 +26,9 @@ function App() {
       <FifthPage />
       <LastPage />
       <Footer />
+      {/* <Routes>
+        <Route path="Contact" element={<Contact />}></Route>
+      </Routes> */}
     </div>
   );
 }
