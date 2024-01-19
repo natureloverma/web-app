@@ -81,6 +81,20 @@ nav img {
   border-color: white;
   transform: rotateY(20deg);
 }
+.contact .bt {
+  background-color: white;
+  border-radius: 0%;
+  font-size: large;
+  border-color: green;
+  color: green;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contact .bt:hover {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
 
 .call {
   color: green;
@@ -182,7 +196,14 @@ nav img {
   text-align: left;
   margin: 50px;
 }
-
+.contact {
+  position: relative;
+  right: 30px;
+  text-align: left;
+  margin: 50px;
+  padding: 10px;
+  width: 60%;
+}
 .flink {
   color: green;
   display: inline-block;
@@ -409,6 +430,9 @@ nav img {
 
 .con .fxc {
   font-size: xxx-large;
+}
+.licon {
+  font-size: xx-large;
 }
 
 .marquee-content {

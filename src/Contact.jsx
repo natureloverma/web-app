@@ -1,24 +1,18 @@
-// import React from "react";
-import bgimg from "./assets/grad.jpg";
-// import bimg from "./assets/mach.avif";
-// import img from "./assets/teach.jpg";
-// import bumn from "./assets/bumn.jpg";
-// import cidb from "./assets/cidb.png";
-// import haier from "./assets/haier.png";
-// import syn from "./assets/syngenta.png";
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import MyNavbar from "./MyNavbar";
 import Footer from "./Footer";
 import { Fragment } from "react";
 import { FaExclamationCircle } from "react-icons/fa";
+import { HiOutlineHome } from "react-icons/hi2";
+import { FaMobileScreen } from "react-icons/fa6";
+import { HiOutlineMailOpen } from "react-icons/hi";
 
 function Contact() {
   return (
     <Fragment>
       <MyNavbar />
 
-      <section
+      <dev
         className="cont"
         style={{
           color: "white",
@@ -41,7 +35,7 @@ function Contact() {
           </p>
           <br></br>
         </div>
-      </section>
+      </dev>
       <div className="con">
         {" "}
         <center>
@@ -55,54 +49,101 @@ function Contact() {
           </p>
         </center>
       </div>
-      <section>
-        <div className="register">
-          <div className="col-1">
-            <h2>Get in Touch</h2>
-
-            <form id="form" className="flex flex-col">
-              <div>
-                <input
-                  type="text"
-                  id="message"
-                  name="message"
-                  placeholder="Message"
-                />
-              </div>
-
-              <div>
-                {" "}
-                <input
-                  type="text"
-                  id="username"
-                  name="username"
-                  placeholder="Name"
-                />
-              </div>
-
-              <div>
-                {" "}
-                <input
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                />
-              </div>
-
-              <div>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="subject"
-                />
-              </div>
-            </form>
-          </div>
+      <div
+        style={{
+          display: "flex",
+        }}
+      >
+        <div className="contact" style={{}}>
+          <h2>Get in Touch</h2>
+          <br></br>
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Enter Message"
+            rows={10}
+            cols={100}
+            style={{
+              padding: "10px",
+              outline: "none",
+            }}
+          />{" "}
+          <br></br>
+          <br></br>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter Your Name"
+            style={{
+              padding: "10px",
+              outline: "none",
+            }}
+          />{" "}
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email"
+            style={{
+              padding: "10px",
+              outline: "none",
+            }}
+          />
+          <br></br>
+          <br></br>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Enter subject"
+            style={{
+              padding: "10px",
+              outline: "none",
+            }}
+          />
+          <br></br>
+          <br></br>
+          <br></br>
+          <Button className="bt">SEND</Button>
         </div>
-        <Button className="but">Get Started Now</Button>
-      </section>
+        <div
+          className="contact"
+          style={{
+            maxWidth: "30%",
+            padding: "30px",
+          }}
+        >
+          <br></br>
+          <br></br>
+          <div>
+            <HiOutlineHome className="licon" /> <b> Buttonwood, California.</b>
+            <br></br>
+            Rosemead, CA 91770
+          </div>
+          <br></br>
+          <br></br>
+          <div>
+            <FaMobileScreen className="licon" />
+            <b> +1 2535652365.</b>
+            <br></br>
+            Mon to Fri 9am to 6pm
+          </div>
+          <br></br>
+          <br></br>
+          <div>
+            <HiOutlineMailOpen className="licon" />
+            <b> support@colorlib.com</b>
+            <br></br>
+            Send us your query
+            <br></br>
+            anytime!
+          </div>
+          <br></br>
+          <br></br>
+        </div>
+      </div>
 
       <Footer />
     </Fragment>

@@ -1,4 +1,3 @@
-import React from "react";
 import bgimg from "./assets/te.jpg";
 
 function SecondPage() {
