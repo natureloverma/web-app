@@ -6,8 +6,6 @@ import { FaSquareTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import bgimg from "./assets/brand.png";
 import { Link } from "react-router-dom";
-// import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import Contact from "./Contact";
 
 const MyNavbar = () => {
   //   function showSidebar() {
@@ -30,7 +28,7 @@ const MyNavbar = () => {
 
       <ul>
         <li className="bars">
-          <a href="#">Home</a>
+          <a href="/app">Home</a>
         </li>
         <li className="bars">
           <a href="#">About</a>

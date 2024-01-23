@@ -1,4 +1,4 @@
-import bgimg from "./assets/tr.avif";
+import bgimg from "./assets/wn.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import { GrNext } from "react-icons/gr";
@@ -23,9 +23,9 @@ function FourthPage() {
             }}
           >
             {" "}
-            The aim of teaching is not only to transmit information, but also to
-            transform students from passive recipients. A teacher requires not
-            only knowledge of subject matter.{" "}
+            Maecenas felis felis, vulputate sit amet mauris et, semper aliquam
+            ligula. <br />
+            Integer efficitur tellus metus, sed feugiat leo posuere.{" "}
           </p>
 
           <div
@@ -47,8 +47,8 @@ function FourthPage() {
                 width: "500px",
               }}
             >
-              Teaching can be defined as engagement with learners to enable
-              their understanding and application of knowledge.{" "}
+              Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+              vitae tincidunt mi, et malesuada massa.{" "}
               <Button className="btn">
                 <GrNext />
               </Button>
@@ -74,8 +74,8 @@ function FourthPage() {
                 width: "500px",
               }}
             >
-              Teaching can be defined as engagement with learners to enable
-              their understanding and application of knowledge.{" "}
+              Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+              vitae tincidunt mi, et malesuada massa.{" "}
               <Button className="btn">
                 <GrNext />
               </Button>
@@ -100,8 +100,8 @@ function FourthPage() {
                 width: "500px",
               }}
             >
-              Teaching can be defined as engagement with learners to enable
-              their understanding and application of knowledge.{" "}
+              Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+              vitae tincidunt mi, et malesuada massa.{" "}
               <Button className="btn">
                 <GrNext />
               </Button>

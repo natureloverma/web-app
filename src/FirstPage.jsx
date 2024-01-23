@@ -8,7 +8,7 @@ function FirstPage() {
       style={{
         color: "white",
         justifyItems: "left",
-        backgroundImage: 'url("/src/assets/read.png")',
+        backgroundImage: 'url("/src/assets/ft.webp")',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -17,18 +17,18 @@ function FirstPage() {
         <h4>
           <b>EDUCATION & SCHOOL</b>
         </h4>
-        <br></br>
+        <br />
         <h1>
           <b>SHOWCASE COURSES, EVENTS AND MORE!</b>
         </h1>
-        <br></br>
-        <p>
+        <br />
+        <h6>
           <b>
             This is the first web page and the example page also the pages
             include that . Understanding and application of knowledge.
           </b>{" "}
-        </p>
-        <br></br>
+        </h6>
+        <br />
         <Button className="but">Get Started Now</Button>
       </div>
     </section>

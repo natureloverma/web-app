@@ -1,4 +1,4 @@
-import bgimg from "./assets/te.jpg";
+import bgimg from "./assets/sd.webp";
 
 function SecondPage() {
   return (
@@ -14,20 +14,15 @@ function SecondPage() {
         <div className="side-by-side">
           <h1>A COMPREHENSIVE TEACHIG APPROACH</h1>
           <p>
-            Teaching can be defined as engagement with learners to enable their
-            understanding and application of knowledge, concepts and processes.
-            It includes design, content selection, delivery, assessment and
-            reflection.{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            felis felis, vulputate sit amet mauris et, semper aliquam ligula.
+            Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+            vitae tincidunt malesuada massa.{" "}
           </p>
           <p>
-            To teach is to engage students in learning; thus teaching consists
-            of getting students involved in the active construction of
-            knowledge. A teacher requires not only knowledge of subject matter,
-            but knowledge of how students learn and how to transform them into
-            active learners. Teaching is fundamentally about creating the
-            pedagogical, social, and ethical conditions under which students
-            agree to take charge of their own learning, individually and
-            collectively.
+            Maecenas felis felis, vulputate sit amet mauris et, semper aliquam
+            ligula. Integer efficitur tellus metus, sed feugiat leo posuere ac.
+            Morbi vitae tincidunt mi, et malesuada massa.
           </p>
 
           <a href="#" className="link">

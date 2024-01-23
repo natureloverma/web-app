@@ -1,10 +1,10 @@
-import bgimg from "./assets/grad.jpg";
-import bimg from "./assets/mach.avif";
-import img from "./assets/teach.jpg";
+import graduation from "./assets/graduation.webp";
+import machine from "./assets/machine.webp";
+import learning from "./assets/onlinel.webp";
 import bumn from "./assets/bumn.jpg";
 import cidb from "./assets/cidb.png";
 import haier from "./assets/haier.png";
-import syn from "./assets/syngenta.png";
+import syngenta from "./assets/syngenta.png";
 
 function FifthPage() {
   return (
@@ -23,54 +23,46 @@ function FifthPage() {
       <div className="content">
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bgimg} alt="" width={350} height={150} />
+            <img src={graduation} alt="" width={350} height={100} />
             <h4>
               {" "}
-              Teaching defined as learners to understanding and application of
-              knowledge{" "}
+              Linguistics alumna says recognizing Indigenous Languages Day is
+              crucial to our histories{" "}
             </h4>
           </a>
         </div>
 
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={bimg} alt="" width={350} height={150} />
+            <img src={machine} alt="" width={350} height={100} />
             <h4>
-              Teaching defined as learners to understanding and application of
-              knowledge{" "}
+              Linguistics alumna says recognizing Indigenous Languages Day is
+              crucial to our histories{" "}
             </h4>
           </a>
         </div>
 
         <div className="side-by-side-f">
           <a href="#" className="filink">
-            <img src={img} alt="" width={350} height={150} />
+            <img src={learning} alt="" width={350} height={100} />
             <h4>
-              Teaching defined as learners to understanding and application of
-              knowledge{" "}
+              Linguistics alumna says recognizing Indigenous Languages Day is
+              crucial to our histories{" "}
             </h4>
           </a>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
 
       <hr />
-      <br></br>
-      <br></br>
-      <br></br>
 
       <div className="part">
         <h1>
           <b>OUR PARTNERS</b>
         </h1>
-        <br></br>
+        <br />
         <p>
-          Teaching defined as learners to understanding and application of
-          knowledge.Teaching defined as learners to understanding and
-          application of knowledge.
+          Maecenas felis felis, vulputate sit amet mauris et, semper aliquam
+          ligula. Integer efficitur tellus metus, sed feugiat leo posuere.
         </p>{" "}
         <div
           className="marquee-content"
@@ -79,14 +71,14 @@ function FifthPage() {
             margin: "20px",
             display: "flex",
             justifyContent: "space-between",
-            filter: "grayscale(100%)",
+            filter: "grayscale(90%)",
           }}
         >
-          <img src={bumn} alt="" width={150} height={90} />
-          <img src={cidb} alt="" width={150} height={90} />
-          <img src={syn} alt="" width={150} height={90} />
-          <img src={bumn} alt="" width={150} height={90} />
-          <img src={haier} alt="" width={150} height={90} />
+          <img src={bumn} alt="" width={100} height={100} />
+          <img src={cidb} alt="" width={100} height={100} />
+          <img src={syngenta} alt="" width={100} height={100} />
+          <img src={bumn} alt="" width={100} height={100} />
+          <img src={haier} alt="" width={100} height={100} />
         </div>
       </div>
     </section>

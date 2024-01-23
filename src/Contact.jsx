@@ -17,7 +17,7 @@ function Contact() {
         style={{
           color: "white",
           justifyItems: "left",
-          backgroundImage: 'url("/src/assets/read.png")',
+          backgroundImage: 'url("/src/assets/ft.webp")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

@@ -253,8 +253,9 @@ nav img {
 .content {
   display: flex;
   background: white;
-  padding: 0px;
+  padding: 10px;
   margin: 50px;
+  margin-bottom: 100px;
 }
 
 .head {
@@ -273,6 +274,7 @@ nav img {
   margin: 50px;
   margin-right: 300px;
   margin-left: 300px;
+  margin-top: 100px;
 }
 
 .headd {
@@ -288,7 +290,6 @@ nav img {
   flex: 1;
   text-align: left;
   border: 1px solid #dbf7db;
-  padding: 15px;
   margin: 20px;
 }
 
@@ -301,7 +302,6 @@ nav img {
 .tlink,
 .alink {
   color: black;
-  padding: 20px;
 }
 .side-by-side-h:hover .tlink,
 .alink {
