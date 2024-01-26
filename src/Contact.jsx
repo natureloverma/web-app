@@ -54,94 +54,96 @@ function Contact() {
           display: "flex",
         }}
       >
-        <div className="contact" style={{}}>
-          <h2>Get in Touch</h2>
-          <br></br>
-          <textarea
-            type="text"
-            id="message"
-            name="message"
-            placeholder="Enter Message"
-            rows={10}
-            cols={100}
-            style={{
-              padding: "10px",
-              outline: "none",
-            }}
-          />{" "}
-          <br></br>
-          <br></br>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Enter Your Name"
-            style={{
-              padding: "10px",
-              outline: "none",
-            }}
-          />{" "}
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Email"
-            style={{
-              padding: "10px",
-              outline: "none",
-            }}
-          />
-          <br></br>
-          <br></br>
-          <input
-            type="text"
-            id="subject"
-            name="subject"
-            placeholder="Enter subject"
-            style={{
-              padding: "10px",
-              outline: "none",
-            }}
-          />
-          <br></br>
-          <br></br>
-          <br></br>
-          <Button className="bt">SEND</Button>
-        </div>
-        <div
-          className="contact"
-          style={{
-            maxWidth: "30%",
-            padding: "30px",
-          }}
-        >
-          <br></br>
-          <br></br>
-          <div>
-            <HiOutlineHome className="licon" /> <b> Buttonwood, California.</b>
-            <br></br>
-            Rosemead, CA 91770
+        <div className="get">
+          <div className="contact" style={{ padding: "0px" }}>
+            <h2>Get in Touch</h2>
+            <br />
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Enter Message"
+              rows={10}
+              cols={80}
+              style={{
+                padding: "10px",
+                outline: "none",
+              }}
+            />{" "}
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter Your Name"
+              style={{
+                padding: "10px",
+                outline: "none",
+                marginTop: "30px",
+              }}
+            />{" "}
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email"
+              style={{
+                padding: "10px",
+                outline: "none",
+              }}
+            />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Enter subject"
+              style={{
+                padding: "10px",
+                outline: "none",
+                marginTop: "30px",
+              }}
+            />
+            <br />
+            <Button className="bt">SEND</Button>
           </div>
-          <br></br>
-          <br></br>
-          <div>
-            <FaMobileScreen className="licon" />
-            <b> +1 2535652365.</b>
-            <br></br>
-            Mon to Fri 9am to 6pm
+          <div
+            className="tact"
+            style={{
+              paddingTop: "70px",
+            }}
+          >
+            <table cellPadding={"20px"}>
+              <tr>
+                <td>
+                  <HiOutlineHome className="licon" />
+                </td>
+                <td>
+                  <b> Buttonwood, California.</b>
+                  <br />
+                  Rosemead, CA 91770
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <FaMobileScreen className="licon" />
+                </td>
+                <td>
+                  <b> +1 2535652365. </b>
+                  <br />
+                  Mon to Fri 9am to 6pm
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <HiOutlineMailOpen className="licon" />
+                </td>
+                <td>
+                  <b> support@colorlib.com </b>
+                  Send us your query <br />
+                  anytime!
+                </td>
+              </tr>
+            </table>
           </div>
-          <br></br>
-          <br></br>
-          <div>
-            <HiOutlineMailOpen className="licon" />
-            <b> support@colorlib.com</b>
-            <br></br>
-            Send us your query
-            <br></br>
-            anytime!
-          </div>
-          <br></br>
-          <br></br>
         </div>
       </div>
 

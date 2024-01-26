@@ -21,17 +21,13 @@ nav ul {
 }
 
 nav a {
-  height: 100%;
   padding: 0 30px;
   display: flex;
   align-items: center;
   color: black;
-  margin-right: auto;
-  line-height: 1.5;
 }
 
 nav img {
-  position: relative;
   left: 10px;
   padding: 5px;
 }
@@ -46,7 +42,7 @@ nav img {
 }
 
 .bars {
-  padding: 3px;
+  margin: 3px;
   position: relative;
   right: 100px;
 }
@@ -56,18 +52,28 @@ nav img {
 }
 
 .ico a {
-  margin-right: auto;
-  padding: 5px;
+  padding: 1px;
+  margin: 2px;
   position: relative;
   right: 100px;
 }
 
 .form {
   text-align: left;
-  width: 60%;
-  margin: relative;
   padding: 100px;
 }
+.cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 40px;
+}
+
+.contt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+}
+
 .form .but {
   background-color: green;
   border-radius: 0%;
@@ -87,6 +93,8 @@ nav img {
   font-size: large;
   border-color: green;
   color: green;
+  margin-top: 30px;
+  padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -188,14 +196,16 @@ nav img {
 }
 
 .contain {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background: rgb(250, 239, 250);
+  padding: 100px;
 }
 .side-by-side {
-  flex: 1;
   text-align: left;
   margin: 50px;
 }
+
 .contact {
   position: relative;
   right: 30px;
@@ -204,10 +214,17 @@ nav img {
   padding: 10px;
   width: 60%;
 }
+.tact {
+  position: relative;
+  right: 30px;
+  text-align: left;
+  margin: 50px;
+  width: 70%;
+}
 .flink {
   color: green;
   display: inline-block;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in;
 }
 .flink:hover {
   color: green;
@@ -251,11 +268,34 @@ nav img {
   color: green;
 }
 .content {
-  display: flex;
-  background: white;
   padding: 10px;
-  margin: 50px;
+  margin: 40px;
   margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.contet {
+  padding: 10px;
+  margin: 40px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.side-by-side-f {
+  padding: 20px;
+  margin: 10px;
+}
+
+.filink {
+  color: black;
+}
+
+.filink img {
+  object-fit: cover;
+}
+.side-by-side-f:hover .filink {
+  color: green;
 }
 
 .head {
@@ -333,7 +373,8 @@ nav img {
 }
 
 .fcontain {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background: rgb(247, 248, 250);
 }
 .fside-by-side {
@@ -349,6 +390,7 @@ nav img {
 .next {
   display: flex;
   flex-direction: row;
+  padding: 0px;
 }
 .side-by-side-hh:hover {
   background-color: rgb(232, 250, 249);
@@ -362,8 +404,8 @@ nav img {
   line-height: 1;
   color: green;
   position: relative;
-  left: 180px;
-  bottom: 50px;
+  left: 110px;
+  bottom: 30px;
 }
 
 .side-by-side-hh:hover .btn {
@@ -371,30 +413,15 @@ nav img {
   background: green;
 }
 
-.side-by-side-f {
-  padding: 0px;
-  margin: 5px;
-}
-
-.filink {
-  color: black;
-  padding: 20px;
-}
-.side-by-side-f:hover .filink {
-  color: green;
-}
-
 .side-by {
-  flex: 1;
-  width: 400px;
-  text-align: left;
-  margin: 50px;
-  padding: 10px;
-  background-color: rgb(243, 232, 218);
+  padding: 0px;
+  background-color: rgb(252, 245, 236);
+}
+.side-by img {
+  object-fit: fill;
 }
 
 .side-byy {
-  flex: 1;
   text-align: left;
   background-color: green;
   color: white;
@@ -410,10 +437,7 @@ nav img {
 .llink:hover {
   transform: scale(1.1) translate(10px, 0px);
 }
-.cont {
-  display: flex;
-  background-color: rgb(243, 232, 218);
-}
+
 .bn {
   position: fixed;
   bottom: 20px;
@@ -433,6 +457,11 @@ nav img {
 }
 .licon {
   font-size: xx-large;
+}
+
+.get {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .marquee-content {

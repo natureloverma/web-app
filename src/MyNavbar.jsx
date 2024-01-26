@@ -48,11 +48,10 @@ const MyNavbar = () => {
           <ul className="social">
             <a href="#" className="call">
               Call Us :{" "}
-            </a>
+            </a>{" "}
             <a href="#" className="ca">
-              <span> 0 (78) 1234567</span>
+              0 (78) 1234567
             </a>
-
             <a href="#" className="cal">
               |
             </a>
@@ -64,7 +63,6 @@ const MyNavbar = () => {
             >
               <FaFacebookSquare />{" "}
             </a>
-
             <a
               className="Social-icon-twitter"
               href="https://twitter.com/intent/tweet"
@@ -73,7 +71,6 @@ const MyNavbar = () => {
             >
               <FaSquareTwitter />{" "}
             </a>
-
             <a
               className="Social-icon-linkedin"
               href="https://lk.linkedin.com/"
@@ -82,7 +79,6 @@ const MyNavbar = () => {
             >
               <FaLinkedin />{" "}
             </a>
-
             <a
               className="Social-icon-youtube"
               href="https://www.youtube.com/"
@@ -91,7 +87,6 @@ const MyNavbar = () => {
             >
               <FaYoutubeSquare />{" "}
             </a>
-
             <a
               className="Social-icon-mail"
               href="https://mail.google.com/mail"
@@ -100,7 +95,6 @@ const MyNavbar = () => {
             >
               <IoMdMail />{" "}
             </a>
-
             <li className="menu-button">
               <a href="#">
                 <svg

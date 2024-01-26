@@ -3,11 +3,16 @@ import bgimg from "./assets/last.webp";
 function LastPage() {
   return (
     <section>
-      <div className="cont">
+      <div
+        className="contt"
+        style={{
+          marginBottom: "0px",
+        }}
+      >
         <div className="side-by">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={500} height={500} />
+            <img src={bgimg} alt="" width={650} height={650} />
           </center>
         </div>
 

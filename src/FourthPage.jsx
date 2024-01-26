@@ -8,13 +8,13 @@ function FourthPage() {
     <section>
       <div className="fcontain">
         <div className="fside-by-side">
-          <h1
+          <h2
             style={{
               padding: "10px",
             }}
           >
-            ESSENTIAL RESOURCES
-          </h1>
+            <b>ESSENTIAL RESOURCES</b>
+          </h2>
 
           <p
             style={{
@@ -33,7 +33,7 @@ function FourthPage() {
             style={{
               width: "100%",
               border: "1px solid lightgray",
-              padding: "10px",
+              padding: "20px",
               margin: "20px",
             }}
           >
@@ -44,7 +44,7 @@ function FourthPage() {
             </h3>
             <p
               style={{
-                width: "500px",
+                width: "450px",
               }}
             >
               Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
@@ -71,7 +71,7 @@ function FourthPage() {
             </h3>
             <p
               style={{
-                width: "500px",
+                width: "450px",
               }}
             >
               Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
@@ -97,7 +97,7 @@ function FourthPage() {
             </h3>
             <p
               style={{
-                width: "500px",
+                width: "450px",
               }}
             >
               Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
@@ -111,7 +111,7 @@ function FourthPage() {
         <div className="ffside-by-side">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={675} height={990} />
+            <img src={bgimg} alt="" width={675} height={850} />
           </center>
         </div>
       </div>

@@ -15,7 +15,7 @@ function ThirdPage() {
           </p>
         </center>
       </div>
-      <div className="content">
+      <div className="contet">
         <div className="side-by-side-h">
           <img
             src={science}

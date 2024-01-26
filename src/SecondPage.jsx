@@ -7,12 +7,15 @@ function SecondPage() {
         <div className="side-by-side">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={500} height={450} />
+            <img src={bgimg} alt="" width={550} height={450} />
           </center>
         </div>
 
         <div className="side-by-side">
-          <h1>A COMPREHENSIVE TEACHIG APPROACH</h1>
+          <h2>
+            <b>A COMPREHENSIVE TEACHIG APPROACH</b>
+          </h2>
+          <br />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             felis felis, vulputate sit amet mauris et, semper aliquam ligula.

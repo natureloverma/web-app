@@ -1,12 +1,13 @@
-import graduation from "./assets/graduation.webp";
-import machine from "./assets/machine.webp";
-import learning from "./assets/onlinel.webp";
 import bumn from "./assets/bumn.jpg";
 import cidb from "./assets/cidb.png";
 import haier from "./assets/haier.png";
 import syngenta from "./assets/syngenta.png";
 
-function FifthPage() {
+import TopStoriesCard1Image from "./assets/graduation.webp";
+import TopStoriesCard2Image from "./assets/machine.webp";
+import TopStoriesCard3Image from "./assets/onlinel.webp";
+
+function TopStories() {
   return (
     <section>
       <div
@@ -14,43 +15,30 @@ function FifthPage() {
         style={{ display: "flex", justifyContent: "space-between" }}
       >
         {" "}
-        <h1>TOP STORIES</h1>
+        <h1>
+          <b>TOP STORIES</b>
+        </h1>
         <a href="#" className="link">
           <u className="mslink">More Stories</u>
         </a>
       </div>
 
       <div className="content">
-        <div className="side-by-side-f">
-          <a href="#" className="filink">
-            <img src={graduation} alt="" width={350} height={100} />
-            <h4>
-              {" "}
-              Linguistics alumna says recognizing Indigenous Languages Day is
-              crucial to our histories{" "}
-            </h4>
-          </a>
-        </div>
-
-        <div className="side-by-side-f">
-          <a href="#" className="filink">
-            <img src={machine} alt="" width={350} height={100} />
-            <h4>
-              Linguistics alumna says recognizing Indigenous Languages Day is
-              crucial to our histories{" "}
-            </h4>
-          </a>
-        </div>
-
-        <div className="side-by-side-f">
-          <a href="#" className="filink">
-            <img src={learning} alt="" width={350} height={100} />
-            <h4>
-              Linguistics alumna says recognizing Indigenous Languages Day is
-              crucial to our histories{" "}
-            </h4>
-          </a>
-        </div>
+        <TopStoryCard
+          imageSrc={TopStoriesCard1Image}
+          title="Linguistics alumna says recognizing Indigenous Languages Day is
+              crucial to our histories"
+        />
+        <TopStoryCard1
+          imageSrc={TopStoriesCard2Image}
+          title="Linguistics alumna says recognizing Indigenous Languages Day is
+              crucial to our histories"
+        />
+        <TopStoryCard2
+          imageSrc={TopStoriesCard3Image}
+          title="Linguistics alumna says recognizing Indigenous Languages Day is
+              crucial to our histories"
+        />
       </div>
 
       <hr />
@@ -84,5 +72,55 @@ function FifthPage() {
     </section>
   );
 }
+function TopStoryCard(prop) {
+  return (
+    <div className="side-by-side-f">
+      <a href="#" className="filink">
+        <img src={prop.imageSrc} alt="" width={350} height={200} />
+        <h4
+          style={{
+            margin: "20px",
+          }}
+        >
+          {prop.title}
+        </h4>
+      </a>
+    </div>
+  );
+}
 
-export default FifthPage;
+function TopStoryCard1(prop) {
+  return (
+    <div className="side-by-side-f">
+      <a href="#" className="filink">
+        <img src={prop.imageSrc} alt="" width={350} height={200} />
+        <h4
+          style={{
+            margin: "20px",
+          }}
+        >
+          {prop.title}
+        </h4>
+      </a>
+    </div>
+  );
+}
+
+function TopStoryCard2(prop) {
+  return (
+    <div className="side-by-side-f">
+      <a href="#" className="filink">
+        <img src={prop.imageSrc} alt="" width={350} height={200} />
+        <h4
+          style={{
+            margin: "20px",
+          }}
+        >
+          {prop.title}
+        </h4>
+      </a>
+    </div>
+  );
+}
+
+export default TopStories;

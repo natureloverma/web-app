@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 
-function FirstPage() {
+function Education() {
   return (
     <section
       className="cont"
@@ -11,6 +11,7 @@ function FirstPage() {
         backgroundImage: 'url("/src/assets/ft.webp")',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        filter: "grayscale(30%)",
       }}
     >
       <div className="form">
@@ -35,4 +36,4 @@ function FirstPage() {
   );
 }
 
-export default FirstPage;
+export default Education;

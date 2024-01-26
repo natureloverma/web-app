@@ -8,11 +8,13 @@ import ThirdPage from "./ThirdPage";
 import FourthPage from "./FourthPage";
 import FifthPage from "./FifthPage";
 import LastPage from "./LastPage";
+// import Resources from "./ResourcesPage";
 
 function App() {
   return (
     <div className="App">
       <MyNavbar />
+      {/* <Resources /> */}
       <FirstPage />
       <SecondPage />
       <ThirdPage />
