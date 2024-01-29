@@ -6,8 +6,8 @@ import { GrNext } from "react-icons/gr";
 function FourthPage() {
   return (
     <section>
-      <div className="fcontain">
-        <div className="fside-by-side">
+      <div className="resource">
+        <div className="eresource">
           <h2
             style={{
               padding: "10px",
@@ -15,11 +15,9 @@ function FourthPage() {
           >
             <b>ESSENTIAL RESOURCES</b>
           </h2>
-
           <p
             style={{
               padding: "10px",
-              margin: "10px",
             }}
           >
             {" "}
@@ -27,96 +25,125 @@ function FourthPage() {
             ligula. <br />
             Integer efficitur tellus metus, sed feugiat leo posuere.{" "}
           </p>
-
-          <div
-            className="side-by-side-hh"
-            style={{
-              width: "100%",
-              border: "1px solid lightgray",
-              padding: "20px",
-              margin: "20px",
-            }}
-          >
-            <h3>
-              <a href="#" className="next">
-                First year students
-              </a>
-            </h3>
-            <p
-              style={{
-                width: "450px",
-              }}
-            >
-              Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
-              vitae tincidunt mi, et malesuada massa.{" "}
-              <Button className="btn">
-                <GrNext />
-              </Button>
-            </p>
-          </div>
-
-          <div
-            className="side-by-side-hh"
-            style={{
-              width: "100%",
-              border: "1px solid lightgray",
-              padding: "10px",
-              margin: "20px",
-            }}
-          >
-            <h3>
-              <a href="#" className="next">
-                Tuition $ fees
-              </a>
-            </h3>
-            <p
-              style={{
-                width: "450px",
-              }}
-            >
-              Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
-              vitae tincidunt mi, et malesuada massa.{" "}
-              <Button className="btn">
-                <GrNext />
-              </Button>
-            </p>
-          </div>
-          <div
-            className="side-by-side-hh"
-            style={{
-              width: "100%",
-              border: "1px solid lightgray",
-              padding: "10px",
-              margin: "20px",
-            }}
-          >
-            <h3>
-              <a href="#" className="next">
-                International students
-              </a>
-            </h3>
-            <p
-              style={{
-                width: "450px",
-              }}
-            >
-              Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
-              vitae tincidunt mi, et malesuada massa.{" "}
-              <Button className="btn">
-                <GrNext />
-              </Button>
-            </p>
-          </div>
+          <div className="resourcecard">
+            <ResourcesCard
+              title="First year students"
+              discription="Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+              vitae tincidunt mi, et malesuada massa."
+            />
+            <ResourcesCard1
+              title="Tuition $ fees"
+              discription="Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+          vitae tincidunt mi, et malesuada massa."
+            />
+            <ResourcesCard2
+              title="International students"
+              discription="Integer efficitur tellus metus, sed feugiat leo posuere ac. Morbi
+          vitae tincidunt mi, et malesuada massa."
+            />
+          </div>{" "}
         </div>
-        <div className="ffside-by-side">
+        <div className="resourc">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={675} height={850} />
+            <img src={bgimg} alt="" width={675} height={865} />
           </center>
-        </div>
+        </div>{" "}
       </div>
     </section>
   );
 }
-
+function ResourcesCard(prop) {
+  return (
+    <div
+      className="side-by-side-hh"
+      style={{
+        width: "100%",
+        border: "1px solid lightgray",
+        padding: "20px",
+        margin: "20px",
+      }}
+    >
+      <a href="#" className="filink">
+        <h3>
+          <a href="#" className="next">
+            {prop.title}{" "}
+          </a>
+        </h3>
+      </a>
+      <p
+        style={{
+          width: "450px",
+        }}
+      >
+        {prop.discription}
+        <Button className="btn">
+          <GrNext />
+        </Button>
+      </p>
+    </div>
+  );
+}
+function ResourcesCard1(prop) {
+  return (
+    <div
+      className="side-by-side-hh"
+      style={{
+        width: "100%",
+        border: "1px solid lightgray",
+        padding: "20px",
+        margin: "20px",
+      }}
+    >
+      <a href="#" className="filink">
+        <h3>
+          <a href="#" className="next">
+            {prop.title}{" "}
+          </a>
+        </h3>
+      </a>
+      <p
+        style={{
+          width: "450px",
+        }}
+      >
+        {prop.discription}
+        <Button className="btn">
+          <GrNext />
+        </Button>
+      </p>
+    </div>
+  );
+}
+function ResourcesCard2(prop) {
+  return (
+    <div
+      className="side-by-side-hh"
+      style={{
+        width: "100%",
+        border: "1px solid lightgray",
+        padding: "20px",
+        margin: "20px",
+      }}
+    >
+      <a href="#" className="filink">
+        <h3>
+          <a href="#" className="next">
+            {prop.title}{" "}
+          </a>
+        </h3>
+      </a>
+      <p
+        style={{
+          width: "450px",
+        }}
+      >
+        {prop.discription}
+        <Button className="btn">
+          <GrNext />
+        </Button>
+      </p>
+    </div>
+  );
+}
 export default FourthPage;

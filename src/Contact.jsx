@@ -70,27 +70,39 @@ function Contact() {
                 outline: "none",
               }}
             />{" "}
-            <input
-              type="text"
-              id="username"
-              name="username"
-              placeholder="Enter Your Name"
-              style={{
-                padding: "10px",
-                outline: "none",
-                marginTop: "30px",
-              }}
-            />{" "}
-            <input
-              type="text"
-              id="email"
-              name="email"
-              placeholder="Email"
-              style={{
-                padding: "10px",
-                outline: "none",
-              }}
-            />
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter Your Name"
+                    style={{
+                      padding: "10px",
+                      outline: "none",
+                      marginTop: "50px",
+                      width: "360px",
+                    }}
+                  />{" "}
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    style={{
+                      padding: "10px",
+                      outline: "none",
+                      marginTop: "50px",
+                      marginLeft: "50px",
+                      width: "360px",
+                    }}
+                  />
+                </td>
+              </tr>{" "}
+            </table>
             <input
               type="text"
               id="subject"
@@ -99,7 +111,8 @@ function Contact() {
               style={{
                 padding: "10px",
                 outline: "none",
-                marginTop: "30px",
+                marginTop: "50px",
+                width: "770px",
               }}
             />
             <br />

@@ -20,9 +20,9 @@ const Footer = () => {
       }}
     >
       <div className="container">
-        <br></br>
-        <br></br>
-        <br></br>
+        <br />
+        <br />
+        <br />
         <div className="row">
           <div className="col-md-2">
             <a
@@ -104,7 +104,7 @@ const Footer = () => {
                 <IoSendSharp />
               </Button>
             </div>
-            <br></br>
+            <br />
             <div className="footerlink">
               <a
                 className="slink"
@@ -144,13 +144,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <br></br> <br></br>
+        <br /> <br />
         <hr />
-        {/* get line  */}
         <div className="row mt-5">
           <div className="col-md-12 text-center">
             <p>
-              Copyright &copy; 2023 All rights reserved | This is made with
+              Copyright &copy; 2024 All rights reserved | This is made with
               <span className="land">
                 <FaHeart />{" "}
               </span>
