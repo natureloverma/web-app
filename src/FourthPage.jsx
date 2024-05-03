@@ -46,7 +46,7 @@ function FourthPage() {
         <div className="resourc">
           <center>
             {" "}
-            <img src={bgimg} alt="" width={675} height={865} />
+            <img src={bgimg} alt="" width={"100%"} height={"auto"} />
           </center>
         </div>{" "}
       </div>
@@ -61,16 +61,15 @@ function ResourcesCard(prop) {
         width: "100%",
         border: "1px solid lightgray",
         padding: "20px",
-        margin: "20px",
+        margin: "10px",
       }}
     >
-      <a href="#" className="filink">
-        <h3>
-          <a href="#" className="next">
-            {prop.title}{" "}
-          </a>
-        </h3>
-      </a>
+      {" "}
+      <h3>
+        <a href="#" className="next">
+          {prop.title}{" "}
+        </a>{" "}
+      </h3>
       <p
         style={{
           width: "450px",
@@ -92,16 +91,14 @@ function ResourcesCard1(prop) {
         width: "100%",
         border: "1px solid lightgray",
         padding: "20px",
-        margin: "20px",
+        margin: "10px",
       }}
     >
-      <a href="#" className="filink">
-        <h3>
-          <a href="#" className="next">
-            {prop.title}{" "}
-          </a>
-        </h3>
-      </a>
+      <h3>
+        <a href="#" className="next">
+          {prop.title}{" "}
+        </a>
+      </h3>
       <p
         style={{
           width: "450px",
@@ -123,16 +120,14 @@ function ResourcesCard2(prop) {
         width: "100%",
         border: "1px solid lightgray",
         padding: "20px",
-        margin: "20px",
+        margin: "10px",
       }}
     >
-      <a href="#" className="filink">
-        <h3>
-          <a href="#" className="next">
-            {prop.title}{" "}
-          </a>
-        </h3>
-      </a>
+      <h3>
+        <a href="#" className="next">
+          {prop.title}{" "}
+        </a>
+      </h3>
       <p
         style={{
           width: "450px",

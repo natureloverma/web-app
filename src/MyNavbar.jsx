@@ -28,7 +28,7 @@ const MyNavbar = () => {
 
       <ul>
         <li className="bars">
-          <a href="/app">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="bars">
           <a href="#">About</a>

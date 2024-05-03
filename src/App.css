@@ -305,8 +305,6 @@ nav img {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 50px;
-  margin-right: 300px;
-  margin-left: 300px;
 }
 
 .part {
@@ -481,8 +479,7 @@ nav img {
 }
 .eresource {
   text-align: left;
-  margin: 50px;
-  margin-bottom: 0px;
+  margin: 30px;
 }
 .resourcecard {
   display: grid;
@@ -491,8 +488,9 @@ nav img {
 
 .offer {
   margin: 50px;
-  margin-right: 280px;
-  margin-left: 280px;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .offercard {
   padding: 10px;

@@ -40,10 +40,9 @@ function OfferCard(prop) {
       <img
         src={prop.imageSrc}
         alt=""
-        width={550}
-        height={250}
         style={{
-          padding: "10px",
+          width: "95%",
+          height: "auto",
           margin: "10px",
         }}
       />
@@ -73,10 +72,9 @@ function OfferCard1(prop) {
       <img
         src={prop.imageSrc}
         alt=""
-        width={550}
-        height={250}
         style={{
-          padding: "10px",
+          width: "95%",
+          height: "auto",
           margin: "10px",
         }}
       />

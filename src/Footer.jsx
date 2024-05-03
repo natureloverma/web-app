@@ -148,7 +148,7 @@ const Footer = () => {
         <hr />
         <div className="row mt-5">
           <div className="col-md-12 text-center">
-            <p>
+            <p className="whitespace-no-wrap overflow-visible">
               Copyright &copy; 2024 All rights reserved | This is made with
               <span className="land">
                 <FaHeart />{" "}

@@ -3,12 +3,7 @@ import bgimg from "./assets/last.webp";
 function LastPage() {
   return (
     <section>
-      <div
-        className="contt"
-        style={{
-          marginBottom: "0px",
-        }}
-      >
+      <div className="contt">
         <div className="side-by">
           <center>
             {" "}

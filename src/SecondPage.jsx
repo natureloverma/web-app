@@ -12,9 +12,7 @@ function SecondPage() {
         </div>
 
         <div className="side-by-side">
-          <h2>
-            <b>A COMPREHENSIVE TEACHIG APPROACH</b>
-          </h2>
+          <h2 className="bold">A COMPREHENSIVE TEACHIG APPROACH</h2>
           <br />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
